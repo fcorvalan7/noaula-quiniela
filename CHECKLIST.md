@@ -10,8 +10,8 @@
 - [x] Página de inicio y estilos (`index.php`, `assets/css/estilo.css`)
 - [x] README de instalación XAMPP
 - [x] Este checklist
-- [ ] Meta-documentación de generación con IA (`docs/generacion-ia/`)
-- [ ] Verificación manual final de los tres ejes pedagógicos (correctivo/evolutivo/preventivo)
+- [x] Meta-documentación de generación con IA (`docs/generacion-ia/`)
+- [x] Verificación manual final de los tres ejes pedagógicos (correctivo/evolutivo/preventivo)
 
 ## Ejes pedagógicos plantados (referencia rápida para el formador)
 
