@@ -1,7 +1,5 @@
 <?php
 // Calculo de premio de una apuesta contra las extracciones de su sorteo.
-// NOTA: complejidad intencional, sin extraer funciones auxiliares - modulo
-// candidato a intervencion preventiva (ver auditoria del curso, E7/E8).
 
 function calcularPremio($apuesta, $extracciones) {
     $numero = $apuesta['numero_apostado'];
