@@ -8,9 +8,6 @@ $mensaje = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sorteo_id = (int)$_POST['sorteo_id'];
     $nombre_apostador = trim($_POST['nombre_apostador']);
-    // NOTA: cast a int trunca el cero a la izquierda (ej. "05" -> 5).
-    // Este es el punto de entrada del defecto correctivo del curso (E2/E3):
-    // admin_resultado.php sí conserva el formato de 2 cifras; esta pantalla no.
     $numero_apostado = (int)$_POST['numero_apostado'];
     $modalidad = $_POST['modalidad'];
     $monto = (float)$_POST['monto'];
