@@ -103,16 +103,45 @@ tr:hover td {
     font-weight: bold;
 }
 
-ul {
+a {
+    color: #1f3a5f;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
     max-width: 700px;
     margin: 1.2em auto;
     padding: 0 1.5em;
 }
 
-ul li {
-    margin-bottom: 0.5em;
+.menu-item {
+    display: block;
+    background: #fff;
+    border: 1px solid #dde2e7;
+    border-left: 4px solid #1f3a5f;
+    border-radius: 6px;
+    padding: 1em 1.2em;
+    text-decoration: none;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
 }
 
-a {
+.menu-item:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transform: translateX(2px);
+}
+
+.menu-item-titulo {
+    display: block;
+    font-weight: 700;
+    font-size: 1.1em;
     color: #1f3a5f;
+}
+
+.menu-item-detalle {
+    display: block;
+    margin-top: 0.2em;
+    font-size: 0.9em;
+    color: #66788f;
 }
